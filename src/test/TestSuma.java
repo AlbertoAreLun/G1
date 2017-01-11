@@ -21,6 +21,10 @@ public class TestSuma {
 	}
 	
 	private int Suma3Num(int i, int j, int k) {
+<<<<<<< HEAD
+		return i+j,k;
+=======
 		return i+j-k;
+>>>>>>> refs/remotes/origin/master
 	}
 }
