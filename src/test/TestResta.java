@@ -11,7 +11,12 @@ public class TestResta {
 		assertEquals(3, Resta(5,2));
 	}
 	
+	@Test
+	public void testResta2() {
+		assertEquals(1, Resta(3,2));
+	}
+	
 	private int Resta(int i, int j) {
-		return 5-2;
+		return i-j;
 	}
 }
