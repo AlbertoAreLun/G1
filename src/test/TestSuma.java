@@ -12,7 +12,12 @@ public class TestSuma {
 		assertEquals(4, Suma(1,3));
 	}
 
+	@Test
+	public void testSuma2() {
+		assertEquals(5, Suma(3,2));
+	}
+	
 	private int Suma(int i, int j) {
-		return 1+3;
+		return i+j;
 	}
 }
