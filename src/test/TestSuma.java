@@ -1,4 +1,3 @@
-
 package test;
 
 import static org.junit.Assert.*;
@@ -19,5 +18,9 @@ public class TestSuma {
 	
 	private int Suma(int i, int j) {
 		return i+j;
+	}
+	
+	private int Suma3Num(int i, int j, int k) {
+		return i+j+k;
 	}
 }
