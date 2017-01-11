@@ -16,17 +16,11 @@ public class TestSuma {
 		assertEquals(5, Suma(3,2));
 	}
 	
-	@Test
-	public void testSumaAvanzada1() {
-		assertEquals(8, SumaAvanzada(4,3,1));
-	}
-	
 	private int Suma(int i, int j) {
 		return i+j;
 	}
 	
-	
-	private int SumaAvanzada(int i, int j, int k) {
-		return Suma(Suma(i,j),k);
+	private int Suma3Num(int i, int j, int k) {
+		return i+j+k;
 	}
 }
